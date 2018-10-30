@@ -12,25 +12,23 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css" />
   </head>
 
-  <body class="<%= page_classes %>">
-    <div class="debug mw9 center ph3-ns">
+  <body class="<%= page_classes %> mw-100 mw8-l ph3 ph5-l near-black">
 
-      <header>
-        <div class="fl w-100 w-20-ns pa3">
-          <h1 class="f2 lh-title">
-            <%= link_to("Jill Petersen", "index.html") %></h1>
-        </div>
+    <header>
+      <div class="fl w-100 w-third-ns ph3-l logo">
+        <h1 class="f2 lh-title">
+          <%= link_to("Jill Petersen", "index.html") %></h1>
+      </div>
 
-        <div class="fl w-100 w-80-ns pa3">
-          <h1 class="f2 lh-title">
-            <%= link_to("Design", "design.html") %>
-            /
-            <%= link_to("Research", "research.html") %>
-          </h1>
-        </div>
-      </header>
+      <div class="fl w-100 w-two-thirds-ns ph3-l nav">
+        <h1 class="f2 lh-title">
+          <%= link_to("Design", "design.html", class: "highlight_design") %>
+          /
+          <%= link_to("Research", "research.html", class: "highlight_research") %>
+        </h1>
+      </div>
+    </header>
 
-      <%= yield %>
-    </div>
+    <%= yield %>
   </body>
 </html>
