@@ -1,0 +1,25 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 1rem 3rem; }
+
+a {
+  color: #111; }
+
+header a {
+  text-decoration: none;
+  color: #000; }
+  header a:hover {
+    background: #ffd963; }
+
+.nav a {
+  border-bottom: 4px solid #000; }
+  .nav a:hover {
+    border-bottom: none; }
+
+.design .highlight_design {
+  background: #ffd963; }
+
+.research .highlight_research {
+  background: #ffd963; }
